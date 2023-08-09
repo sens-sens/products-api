@@ -1,0 +1,18 @@
+{
+  "name": "products-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "create-db": "cd dynamodb && node create_table.js && cd ..",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1432.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
